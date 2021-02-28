@@ -1,0 +1,13 @@
+{
+  "name": "helsinki-tennis-finder",
+  "description": "Find available slots in Smash, Talin, and Smash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
+  }
+}
