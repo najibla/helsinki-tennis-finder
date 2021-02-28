@@ -72,12 +72,12 @@ async function main() {
 					centers.map(async (center) => {
 						const data = await getData(center, formattedToday);
 						const parseData = parseResults(data);
-                        if (parseData.length) {
-                            allResults[center].push({
-                                date: formattedToday,
-                                availablitites: parseData,
-                            });
-                        }
+						if (parseData.length) {
+							allResults[center].push({
+								date: formattedToday,
+								availablitites: parseData,
+							});
+						}
 						return Promise.resolve();
 					})
 				);
